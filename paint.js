@@ -2,8 +2,8 @@ const canvasWidth = 1000;
 const canvasHeight = 1000;
 const blockWidth = 10;
 const blockHeight = 10;
-const numBlocks = 70;
-const numRows = 70;
+const numBlocks = 140;
+const numRows = 100;
 
 let draw = SVG('drawing').size(canvasWidth, canvasHeight);
 
@@ -22,7 +22,7 @@ for (let i = 0; i <numRows; i++ ){
     };
 
     rect.element.move(blockX, rowY);
-    rect.element.stroke(BLACK);
+    rect.element.stroke(WHITE);
     rect.element.fill(WHITE);
     }
 }
