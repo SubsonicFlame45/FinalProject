@@ -23,3 +23,10 @@
 #violet {
   background-color: violet;
 }
+#white {
+  background-color: white;
+}
+#black {
+  background-color: black;
+  color: white
+}

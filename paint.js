@@ -22,10 +22,11 @@ for (let i = 0; i <numRows; i++ ){
     };
 
     rect.element.move(blockX, rowY);
-    rect.element.stroke(WHITE);
+    rect.element.stroke(BLACK);
     rect.element.fill(WHITE);
     }
 }
+
 x = 10
 y = 10
 for (let a = 0; a < 10; a++) {
