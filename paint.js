@@ -28,8 +28,8 @@ for (let i = 0; i <numRows; i++ ){
 }
 
 function colorFunction() {
-    console.log("this works")
-    
+    console.log("this works");
+
 } 
 document.getElementById("black").onclick = COLOR = '#000';
 document.getElementById("white").onclick 
