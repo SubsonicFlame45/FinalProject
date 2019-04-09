@@ -27,8 +27,9 @@ for (let i = 0; i <numRows; i++ ){
     }
 }
 
-x = 10
-y = 10
-for (let a = 0; a < 10; a++) {
-
-}
+function colorFunction() {
+    console.log("this works")
+    
+} 
+document.getElementById("black").onclick = COLOR = '#000';
+document.getElementById("white").onclick 
