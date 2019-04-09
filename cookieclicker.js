@@ -8,6 +8,7 @@ var d = 1;
 var powernumber = 10;
 document.getElementById('dpowernum').innerText = powernumber;
 var k = 1;
+var upgradeautonum = 10;
 
 function cookieClick(){
     num += d;
@@ -16,7 +17,6 @@ function cookieClick(){
 }
 
 function powerUp(){
-    console.log('yes');
     if(num >= powernumber){
         num -= powernumber;
 
@@ -28,4 +28,21 @@ function powerUp(){
         d += 1;
         number.innerText = num;
     }
+}
+
+document.getElementById('upbuy').onclick = upBuy;
+document.getElementById('upgradebuy').innerText = upgradeautonum;
+
+function upBuy(){
+    if(num >= upgradeautonum){
+        num -= upgradeautonum;
+        upgradeautonum *= 2;
+        document.getElementById('upgradebuy').innerText = upgradeautonum;
+        setInterval(autoBuy, 600);
+    }
+}
+
+function autoBuy(){
+    num++;
+    number.innerText = num;
 }
