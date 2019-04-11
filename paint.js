@@ -10,6 +10,15 @@ let draw = SVG('drawing').size(canvasWidth, canvasHeight);
 const WHITE = '#fff';
 const BLACK = '#000';
 let currentColor = '#000';
+let mouseIsDragging = false;
+draw.mousedown(function() {
+    mouseIsDragging = true;
+})
+
+draw.mouseup(function() {
+    mouseIsDragging = false;
+})
+
 for (let i = 0; i < numRows; i++ ){
     let rowY = i * blockHeight;
 
@@ -22,9 +31,14 @@ for (let i = 0; i < numRows; i++ ){
     };
 
     rect.element.move(blockX, rowY);
-    rect.element.stroke(BLACK);
+    rect.element.stroke(WHITE);
     rect.element.fill(WHITE);
-    }
+    rect.element.mouseover(function() {
+        if (mouseIsDragging) {
+            this.fill(currentColor);
+        }
+    }) 
+    
 }
 document.getElementById("black").onclick = function() {
     currentColor = '#000'
@@ -62,10 +76,13 @@ document.getElementById("violet").onclick = function() {
     currentColor = '#ee82ee'
     console.log(currentColor)
 }
+document.getElementById('eraseButton').onclick = function() {
+    console.log('erasing');
+}
 function colorUpdate()  {
     console.log(currentColor)
 }
 function colorFunction() {
-    
+
     console.log("this works");
-} 
+} } 
