@@ -9,6 +9,12 @@
 #red {
   background-color: red;
 }
+#mahogany {
+  background-color: #951A00;
+}
+#burntOrange {
+  background-color: #D35400;
+}
 #orange {
   background-color: orange;
 }
@@ -19,6 +25,10 @@
   background-color: green;
   color:white;
 }
+#turquoise {
+  background-color: #40e0d0
+
+}
 #blue {
   background-color: blue;
   color: white;
@@ -26,10 +36,18 @@
 #violet {
   background-color: violet;
 }
+#purple {
+  background-color: #4A235A;
+  color: white;
+}
 #white {
   background-color: whitesmoke;
 }
 #black {
   background-color: black;
-  color: white
+  color: white;
+}
+#gray {
+  background-color: #808080;
+  color: white;
 }
