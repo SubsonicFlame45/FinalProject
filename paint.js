@@ -48,6 +48,10 @@ document.getElementById("white").onclick = function() {
     currentColor = '#fff'
     console.log(currentColor)
 }
+document.getElementById("peach").onclick = function() {
+    currentColor = '#FFCBA4'
+    console.log(currentColor)
+}
 document.getElementById("red").onclick = function() {
     currentColor = '#ff0000'
     console.log(currentColor)
@@ -72,12 +76,20 @@ document.getElementById("orange").onclick = function() {
     currentColor = '#ffa500'
     console.log(currentColor)
 }
+document.getElementById("olive").onclick = function() {
+    currentColor = '#957100'
+    console.log(currentColor)
+}
 document.getElementById("yellow").onclick = function() {
     currentColor = '#ffff00'
     console.log(currentColor)
 }
 document.getElementById("green").onclick = function() {
     currentColor = '#008000'
+    console.log(currentColor)
+}
+document.getElementById("lime").onclick = function() {
+    currentColor = '#00FF00'
     console.log(currentColor)
 }
 document.getElementById("turquoise").onclick = function() {
@@ -93,7 +105,7 @@ document.getElementById("violet").onclick = function() {
     console.log(currentColor)
 }
 document.getElementById("purple").onclick = function() {
-    currentColor = '#4A235A'
+    currentColor = '#6C3483'
     console.log(currentColor)
 }
 

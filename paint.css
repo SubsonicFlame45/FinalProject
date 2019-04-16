@@ -11,12 +11,16 @@
 }
 #mahogany {
   background-color: #951A00;
+  color:white;
 }
 #burntOrange {
   background-color: #D35400;
 }
 #orange {
   background-color: orange;
+}
+#olive {
+  background-color: #957100;
 }
 #yellow {
   background-color: yellow;
@@ -25,9 +29,14 @@
   background-color: green;
   color:white;
 }
+#lime {
+  background-color: #00FF00;
+  }
 #turquoise {
   background-color: #40e0d0
-
+}
+#peach {
+  background-color: #FFCBA4;
 }
 #blue {
   background-color: blue;
@@ -37,7 +46,7 @@
   background-color: violet;
 }
 #purple {
-  background-color: #4A235A;
+  background-color: #6C3483;
   color: white;
 }
 #white {
