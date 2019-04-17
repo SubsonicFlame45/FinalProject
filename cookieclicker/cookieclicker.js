@@ -46,3 +46,4 @@ function autoBuy(){
     num++;
     number.innerText = num;
 }
+
