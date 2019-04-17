@@ -80,6 +80,10 @@ document.getElementById("olive").onclick = function() {
     currentColor = '#957100'
     console.log(currentColor)
 }
+document.getElementById("buff").onclick = function() {
+    currentColor = '#F0DC82'
+    console.log(currentColor)
+}
 document.getElementById("yellow").onclick = function() {
     currentColor = '#ffff00'
     console.log(currentColor)
