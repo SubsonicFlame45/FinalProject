@@ -27,6 +27,9 @@ function powerUp(){
         
         d += 1;
         number.innerText = num;
+    }else{
+        document.getElementById('text').innerText = "You don't have enough cookies";
+        setTimeout(textFade, 4000)
     }
 }
 
@@ -39,7 +42,14 @@ function upBuy(){
         upgradeautonum *= 2;
         document.getElementById('upgradebuy').innerText = upgradeautonum;
         setInterval(autoBuy, 600);
+    }else{
+        document.getElementById('text').innerText = "You don't have enough cookies";
+        setTimeout(textFade, 4000)
     }
+}
+
+function textFade(){
+    document.getElementById('text').innerText = '';
 }
 
 function autoBuy(){

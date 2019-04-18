@@ -4,6 +4,8 @@
     width: 100px;
     border: 1px solid black;
     text-align: center;
+    position: absolute;
+    left: 50%;
 }
 
 #dpowernum{
@@ -13,6 +15,9 @@
     border: 1px solid black;
     text-align: center;
     background-color: aqua;
+    position: absolute;
+    left: 33%;
+    bottom: 100px;
 }
 
 #upgradebuy{
@@ -21,7 +26,10 @@
     width: 100px;
     border: 1px solid black;
     text-align: center;
-    background-color: aqua
+    background-color: aqua;
+    position: absolute;
+    left: 66%;
+    bottom: 100px;
 }
 
 #powerup{
@@ -30,6 +38,9 @@
     width: 100px;
     border: 1px solid black;
     text-align: center;
+    position: absolute;
+    left: 33%;
+    bottom: 50px;
 }
 
 #upbuy{
@@ -38,5 +49,19 @@
     width: 100px;
     border: 1px solid black;
     text-align: center;   
+    position: absolute;
+    left: 66%;
+    bottom: 50px;
 }
 
+#cookie{
+    left: 50%;
+}
+
+#text{
+    position: relative;
+    text-align: center;
+    left: 50px;
+    top: 50px;
+    font-size: 40px;
+}
